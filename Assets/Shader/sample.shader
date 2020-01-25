@@ -1,21 +1,25 @@
 ﻿Shader "Custom/sample" {
-    Properties{
-        _BaseColor ("Base Color", Color) = (1,1,1,1)
-    }
+	Properties{
+		_AlphaFactor ("Factor", Float) = 1.5
+	}
 	SubShader {
-		Tags { "RenderType"="Opaque" }
+		Tags { "Queue"="Transparent" }
 		LOD 200
 		
 		CGPROGRAM
-		#pragma surface surf Standard fullforwardshadows
+		#pragma surface surf Standard alpha:fade
 		#pragma target 3.0
 
 		struct Input {
-			float2 uv_MainTex;
+			float3 worldNormal;
+      			float3 viewDir;
 		};
-		fixed4 _BaseColor;
+
+        float _AlphaFactor;
 		void surf (Input IN, inout SurfaceOutputStandard o) {
-			o.Albedo = _BaseColor.rgb;
+			o.Albedo = fixed4(1, 1, 1, 1);
+			float alpha = 1 - (abs(dot(IN.viewDir, IN.worldNormal)));
+     		o.Alpha =  alpha*_AlphaFactor;
 		}
 		ENDCG
 	}
