@@ -26,6 +26,9 @@
           </e>
         </e>
         <e p="Shader" t="Include">
+          <e p="Lenticular" t="Include">
+            <e p="Lenticular.shader" t="Include" />
+          </e>
           <e p="Rim Lighting" t="Include">
             <e p="rimlighting.shader" t="Include" />
           </e>
