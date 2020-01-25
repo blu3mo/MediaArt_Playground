@@ -67,3 +67,8 @@ Assets/Shader/Dragon_1.obj
 Assets/Shader/Dragon_1.obj.meta
 
 .idea/.idea.MediaArtPlayground/.idea/workspace.xml
+
+*.obj
+
+/Assets/Standard_Assets/
+Assets/Standard Assets/
