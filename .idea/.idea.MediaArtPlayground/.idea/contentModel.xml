@@ -32,6 +32,9 @@
           <e p="Rim Lighting" t="Include">
             <e p="rimlighting.shader" t="Include" />
           </e>
+          <e p="Shape" t="Include">
+            <e p="shape.shader" t="Include" />
+          </e>
           <e p="Texture Shader" t="Include">
             <e p="box.shader" t="Include" />
             <e p="StainedGlass.shader" t="Include" />
