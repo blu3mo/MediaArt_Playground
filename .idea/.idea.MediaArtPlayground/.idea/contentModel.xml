@@ -26,6 +26,9 @@
           </e>
         </e>
         <e p="Shader" t="Include">
+          <e p="Fluid" t="Include">
+            <e p="fluid.shader" t="Include" />
+          </e>
           <e p="Lenticular" t="Include">
             <e p="Lenticular.shader" t="Include" />
           </e>
@@ -38,6 +41,9 @@
           <e p="Texture Shader" t="Include">
             <e p="box.shader" t="Include" />
             <e p="StainedGlass.shader" t="Include" />
+          </e>
+          <e p="Toon" t="Include">
+            <e p="toon.shader" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">

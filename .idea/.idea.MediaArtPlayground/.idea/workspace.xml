@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8536c047-d696-4ac5-923b-ff6b5db4710d" name="Default Changelist" comment="" />
+    <list default="true" id="8536c047-d696-4ac5-923b-ff6b5db4710d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MediaArtPlayground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MediaArtPlayground/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Shape/shape.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Shape/shape.shader" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,16 +78,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shader/Shape/shape.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
               <folding>
-                <marker date="1579968924074" expanded="true" signature="23:612" ph="{...}" />
-                <marker date="1579968924074" expanded="true" signature="40:94" ph="{...}" />
-                <marker date="1579968924074" expanded="true" signature="107:590" ph="{...}" />
-                <marker date="1579968924074" expanded="true" signature="166:582" ph="{...}" />
+                <marker date="1579970880308" expanded="true" signature="23:644" ph="{...}" />
+                <marker date="1579970880308" expanded="true" signature="41:97" ph="{...}" />
+                <marker date="1579970880308" expanded="true" signature="112:620" ph="{...}" />
+                <marker date="1579970880308" expanded="true" signature="175:611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/Fluid/fluid.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <marker date="1579973396947" expanded="true" signature="21:1513" ph="{...}" />
+                <marker date="1579973396947" expanded="true" signature="42:95" ph="{...}" />
+                <marker date="1579973396947" expanded="true" signature="114:1511" ph="{...}" />
+                <marker date="1579973396947" expanded="true" signature="210:1505" ph="{...}" />
+                <marker date="1579973396947" expanded="true" signature="233:1490" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shader/Toon/toon.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <marker date="1580044147267" expanded="true" signature="21:1066" ph="{...}" />
+                <marker date="1580044147267" expanded="true" signature="38:182" ph="{...}" />
+                <marker date="1580044147267" expanded="true" signature="197:1041" ph="{...}" />
+                <marker date="1580044147267" expanded="true" signature="280:1030" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,10 +136,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Lenticular/Lenticular.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Toon/toon.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Texture Shader/box.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Shape/shape.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Texture Shader/StainedGlass.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Rim Lighting/rimlighting.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Fluid/fluid.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,7 +153,9 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Texture Shader/box.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Texture Shader/StainedGlass.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Lenticular/Lenticular.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Fluid/fluid.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Shape/shape.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Toon/toon.shader" />
       </list>
     </option>
   </component>
@@ -215,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1579874014703</updated>
       <workItem from="1579874018494" duration="1479000" />
-      <workItem from="1579966855422" duration="2551000" />
+      <workItem from="1579966855422" duration="5995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11218000" />
+    <option name="totallyTimeSpent" value="14662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,13 +382,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shader/Shape/shape.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
           <folding>
-            <marker date="1579968924074" expanded="true" signature="23:612" ph="{...}" />
-            <marker date="1579968924074" expanded="true" signature="40:94" ph="{...}" />
-            <marker date="1579968924074" expanded="true" signature="107:590" ph="{...}" />
-            <marker date="1579968924074" expanded="true" signature="166:582" ph="{...}" />
+            <marker date="1579970880308" expanded="true" signature="23:644" ph="{...}" />
+            <marker date="1579970880308" expanded="true" signature="41:97" ph="{...}" />
+            <marker date="1579970880308" expanded="true" signature="112:620" ph="{...}" />
+            <marker date="1579970880308" expanded="true" signature="175:611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Fluid/fluid.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1579973396947" expanded="true" signature="21:1513" ph="{...}" />
+            <marker date="1579973396947" expanded="true" signature="42:95" ph="{...}" />
+            <marker date="1579973396947" expanded="true" signature="114:1511" ph="{...}" />
+            <marker date="1579973396947" expanded="true" signature="210:1505" ph="{...}" />
+            <marker date="1579973396947" expanded="true" signature="233:1490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shader/Toon/toon.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <marker date="1580044147267" expanded="true" signature="21:1066" ph="{...}" />
+            <marker date="1580044147267" expanded="true" signature="38:182" ph="{...}" />
+            <marker date="1580044147267" expanded="true" signature="197:1041" ph="{...}" />
+            <marker date="1580044147267" expanded="true" signature="280:1030" ph="{...}" />
           </folding>
         </state>
       </provider>
