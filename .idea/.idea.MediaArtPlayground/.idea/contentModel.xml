@@ -26,6 +26,9 @@
           </e>
         </e>
         <e p="Shader" t="Include">
+          <e p="Flag" t="Include">
+            <e p="flag.shader" t="Include" />
+          </e>
           <e p="Fluid" t="Include">
             <e p="fluid.shader" t="Include" />
           </e>
